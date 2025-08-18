@@ -10,6 +10,6 @@
 #  updated_at :datetime         not null
 #
 
-class Post < ActiveRecord::Base
+class Post < ApplicationRecord
   belongs_to :author
 end
