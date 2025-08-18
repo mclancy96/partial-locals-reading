@@ -9,6 +9,6 @@
 #  updated_at :datetime         not null
 #
 
-class Author < ActiveRecord::Base
+class Author < ApplicationRecord
   has_many :posts
 end
