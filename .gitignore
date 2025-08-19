@@ -37,6 +37,10 @@
 /spec/tmp/
 /spec/examples.txt
 
+# SQLite3 WAL and SHM files
+/db/*.sqlite3-shm
+/db/*.sqlite3-wal
+
 # Ignore system files
 *.iml
 *.sublime*
@@ -135,4 +139,3 @@ __MACOSX/
 *.swo
 
 # Ignore byebug history
-

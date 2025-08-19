@@ -262,6 +262,7 @@ GEM
     timeout (0.4.3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    warnings (0.1.1)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -306,6 +307,7 @@ DEPENDENCIES
   selenium-webdriver (>= 4.0)
   sqlite3 (~> 1.6)
   tzinfo-data
+  warnings
   web-console (>= 4.2.0)
   webdrivers (~> 5.0)
   webrick (~> 1.8)

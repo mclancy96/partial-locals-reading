@@ -10,12 +10,13 @@ gem 'jbuilder', '~> 2.11'
 gem 'bootsnap', '>= 1.17.0', require: false
 gem 'webrick', '~> 1.8'
 gem 'ostruct', '~> 0.5'
+gem 'warnings'
 
 # Asset pipeline (Sprockets) is optional in Rails 7+, so not included by default
 # gem 'sprockets-rails', '~> 3.4'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: [:mri, :windows]
   gem 'rspec-rails', '~> 6.1'
 end
 
@@ -31,4 +32,4 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: [:windows, :jruby]
