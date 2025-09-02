@@ -18,6 +18,8 @@ gem 'warnings'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :windows]
   gem 'rspec-rails', '~> 6.1'
+  gem 'pry'
+  gem 'rubocop', require: false
 end
 
 group :development do
